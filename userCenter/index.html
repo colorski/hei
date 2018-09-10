@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<link rel="shortcut icon" href="../images/favicon.ico" />
+<link rel="bookmark" href="../images/favicon.ico" />
+
+<title>个人中心首页</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="stylesheet" href="../css/userCenter.css" />
+<link rel="stylesheet" href="../fonts/iconfont.css" />
+<link rel="stylesheet" media="screen and (max-width:900px)" href="../css/mobile.css">
+</head>
+
+<body>
+<!--left-->
+<div class="lt" id="lt">
+	<div class="lt_mid">
+		<a class="logo" href="../heizhongjie/index.html"><i class="icon iconfont icon-heimingdan"></i></a>
+		<h2>反黑联盟<br /><span>个人中心</span></h2>
+		<ul>
+			<li><a href="index.html" class="current">个人信息</a></li>
+			<li><a href="myMessages.html">我的消息</a></li>
+			<li><a href="changePassword.html">修改密码</a></li>
+			<li><a href="myPublicArticles.html">发布的主题</a></li>
+			<li><a href="myComments.html">发表的评论</a></li>
+		</ul>
+	</div>
+</div>
+
+<!--right main-->
+<div class="rt" id="rt">
+	<div class="rt_top">
+		<h1><a href="index.html">个人信息</a></h1>
+		<i class="icon iconfont icon-iconlocation48 min_center_nav" id="minUcNav"></i>
+		<ul class="min_center_nav_items" id="minUcNavItems">
+			<li><a href="index.html" class="current">个人信息</a></li>
+			<li><a href="myMessages.html">我的消息</a></li>
+			<li><a href="changePassword.html">修改密码</a></li>
+			<li><a href="myPublicArticles.html">发布的主题</a></li>
+			<li><a href="myComments.html">发表的评论</a></li>
+		</ul>
+	</div>
+
+	<div class="uc_wrap">
+		<dl class="cf"><dt>帐号：</dt><dd><span>323245452@qq.com</span></dd></dl>
+		<dl class="cf"><dt>昵称：</dt><dd><i class="icon iconfont icon-tag" id="btnChangeNickName" data-id="234" data-name="小楠楠"></i><span>小楠楠</span></dd></dl>
+		<dl class="cf"><dt>消息：</dt><dd><a href="myMessages.html">6 <i class="icon iconfont icon-right1"></i></a></dd></dl>
+		<dl class="cf"><dt>密码：</dt><dd><a href="myMessages.html">123456 <i class="icon iconfont icon-right1"></i></a></dd></dl>
+		<dl class="cf"><dt>发布主题数：</dt><dd><a href="myPublicArticles.html">32 <i class="icon iconfont icon-right1"></i></a></dd></dl>
+		<dl class="cf"><dt>发表评论数：</dt><dd><a href="myComments.html">335<i class="icon iconfont icon-right1"></i></a></dd></dl>
+	</div>
+</div>
+
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/userCenter.js"></script>
+<script>
+	uc.index.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*mobile*/
+@media screen and (max-width: 782px){
+    /*tip-off*/
+    .off_ipt { width: 90%; }
+    .tip_off_wrap { padding: 20px 0;overflow: hidden; }
+    .edui-container {width:95%!important;}
+    .tip_off_btn { width: 90%; }
+    .report_btn {width: 100%;}
+    .btn_public { float: none; display: block; width: 90%; margin: 15px auto;}
+    .edui-body-container {width: 100%!important;}
+    /*detail*/
+    .vote_listem li p {width:300px; padding:0 20px; }
+}
+@media screen and (max-width: 690px){
+    /*index*/
+    .search .ipt_search {width: 200px;}
+}
+@media screen and (max-width: 640px){
+    /*common*/
+    .lt,.city,.uc_search { display: none; }
+    .rt { padding-left: 0; }
+    .comt_list .cf .fl { display: block; }
+    .login_cmn {margin-left: -150px;}
+    .rt_top h1 {font-size: 18px;}
+    .min_city,.min_center_nav {display: block;}
+    .go_top {width:32px; height: 62px; right: 2px; bottom: 5px;}
+    .go_top p{ height: 32px; line-height: 32px; }
+    /*tip-off*/
+    .off_ipt { width: 90%; }
+    .tip_off_wrap { padding: 20px 0;overflow: hidden; }
+    .edui-container {width:95%!important;}
+    .tip_off_btn { width: 90%; }
+    .report_btn {width: 100%;}
+    .btn_public { float: none; display: block; width: 90%; margin: 15px auto;}
+    /*userCenter message*/
+    .msg_wrap ul li .bot p.fr {
+        float: left;
+    }
+}
+@media screen and (max-width: 600px){
+    /*detail*/
+    .detail_comt textarea,
+    .detail_comt .ipt_comt { float: none; display: block; margin: 0 auto; width: 86%;}
+    .detail_comt .ipt_comt { padding: 0 10px; margin-top: 10px;}
+}
+@media screen and (max-width: 576px){
+    /*detail*/
+    .vote_listem_base{ padding: 20px 6px; }
+    .vote_listem li p {width:auto; padding:0 20px; }
+}
+@media screen and (max-width: 420px){
+    /*vote*/
+    .vote_listem li p {width:auto; padding:0 10px; max-width: 230px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+}
+@media screen and (max-width: 414px){
+    /*index*/
+    .search .ipt_search {width: 120px;}
+    .rt_list { padding: 0; border: none; }
+    /*detail*/
+    .detail_cz .detl_a {display: none;}
+    /*vote*/
+    .btn_go_add { margin: 15px 0; text-align: center; }
+}
+@media screen and (max-width: 375px){
+    /*vote*/
+    .vote_listem li p {max-width: 210px; }
+    /*add*/
+    .ipt_add, .ipt_search_add { width: 280px; }
+}
+@media screen and (max-width: 360px){
+    /*add*/
+    .ipt_add, .ipt_search_add { width: 250px; }
+}
+@media screen and (max-width: 320px){
+    /*index*/
+    .search .ipt_search {width: 80px;}
+    /*add*/
+    .ipt_add, .ipt_search_add { width: 200px; }
+    /*vote*/
+    .vote_listem li p {padding:0 5px; max-width: 200px; }
+}
+
+
+
+
+
+
+
+

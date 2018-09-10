@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit" />
+<link rel="shortcut icon" href="../images/favicon.ico" />
+<link rel="bookmark" href="../images/favicon.ico" />
+
+<title>我发表的评论</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link rel="stylesheet" href="../css/userCenter.css" />
+<link rel="stylesheet" href="../fonts/iconfont.css" />
+<link rel="stylesheet" media="screen and (max-width:900px)" href="../css/mobile.css">
+</head>
+
+<body>
+<!--left-->
+<div class="lt" id="lt">
+	<div class="lt_mid">
+		<a class="logo" href="../heizhongjie/index.html"><i class="icon iconfont icon-heimingdan"></i></a>
+		<h2>反黑联盟<br /><span>个人中心</span></h2>
+		<ul>
+			<li><a href="index.html">个人信息</a></li>
+			<li><a href="myMessages.html">我的消息</a></li>
+			<li><a href="changePassword.html">修改密码</a></li>
+			<li><a href="myPublicArticles.html">发布的主题</a></li>
+			<li><a class="current" href="myComments.html">发表的评论</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<!--right main-->
+<div class="rt" id="rt">
+	<div class="rt_top">
+		<h1><a href="myComments.html">我发表的评论</a></h1>
+		<div class="search fr cf uc_search">
+			<input type="text" class="ipt_search" id="searchCon" placeholder="关键词" /><i class="icon iconfont icon-search btn_search"></i>
+		</div>
+		<i class="icon iconfont icon-iconlocation48 min_center_nav" id="minUcNav"></i>
+		<ul class="min_center_nav_items" id="minUcNavItems">
+			<li><a href="index.html">个人信息</a></li>
+			<li><a href="myMessages.html">我的消息</a></li>
+			<li><a href="changePassword.html">修改密码</a></li>
+			<li><a href="myPublicArticles.html">发布的主题</a></li>
+			<li><a class="current" href="myComments.html">发表的评论</a></li>
+		</ul>
+	</div>
+	
+	<div class="wrap">
+		<table>
+			<thead>
+				<tr>
+					<th>评论内容</th>
+					<th>发布时间</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+			<tbody id="mCommentListem">
+				<tr>
+					<td>北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司</td>
+					<td>2017-12-24</td>
+					<td class="do"><i class="icon iconfont icon-delete del" title="删除" data-id="001"></i></td>
+				</tr>
+				<tr>
+					<td>北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司</td>
+					<td>2017-12-24</td>
+					<td class="do"><i class="icon iconfont icon-delete del" title="删除" data-id="002"></i></td>
+				</tr>
+				<tr>
+					<td>北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司北京坚石房地产经纪公司</td>
+					<td>2017-12-24</td>
+					<td class="do"><i class="icon iconfont icon-delete del" title="删除" data-id="003"></i></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script src="../js/jquery-1.12.3.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/userCenter.js"></script>
+<script>
+	uc.myComments.init();
+</script>
+</body>
+</html>
