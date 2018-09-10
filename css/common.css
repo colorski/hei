@@ -352,6 +352,7 @@ table th,table td {padding:6px 12px;text-align:center;}
 }
 .rt_listem {
     padding: 20px;
+    position: relative;
 }
 .rt_list {
     border: 1px solid #f0f0f0;
